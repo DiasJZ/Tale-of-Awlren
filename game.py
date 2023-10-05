@@ -26,7 +26,7 @@ class Sapo(pygame.sprite.Sprite):
 
 todas_as_sprites = pygame.sprite.Group()
 sapo = Sapo()
-todas_as_sprites.add(elfo)
+todas_as_sprites.add(sapo)
 
 while True:
     tela.fill(PRETO)
